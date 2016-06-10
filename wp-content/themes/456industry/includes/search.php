@@ -4,7 +4,7 @@ $header_search = ot_get_option('header_search');
 
 ?>
 
-<?php if ($header_search!="none"){?>
+<?php if ($header_search!="none"){  /*Remove display none, if want to use search in future */?>
 <div class="search-meta" style="display:none;">
 
 	<?php if($header_search == "shop_search"){ ?>
