@@ -196,7 +196,7 @@ function wc_custom_redirect_after_purchase() {
     global $wp;
 
     if ( is_checkout() && ! empty( $wp->query_vars['order-received'] ) ) {
-        wp_redirect( 'http://local.ecm.com/index.php/thank-you/' );
+        wp_redirect( 'http://www.ecmshopfitting.com/thank-you/' );
         exit;
     }
 }
